@@ -34,7 +34,7 @@ export default function Home() {
 
   return (
     <div className="container mx-auto">
-      <header className="bg-transparent top-0 left-0 w-full flex item-center z-10 fixed">
+      <header className="bg-transparent top-0 left-0 w-full flex item-center z-10">
         <div className="container">
           <div className="flex items-center justify-between relative">
             <div className="px-5">
