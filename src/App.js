@@ -43,12 +43,12 @@ export default function Home() {
             </div>
             <div className="flex item-center px-4">
               <button className="block absolute right-4 top-5 lg:hidden" type="button" id="menu-humberger" onClick={iconMenu}>
-                <span className="w-[30px] h-[2px] my-2 block bg-dark transition duration-300 ease-in-out origin-top-left "></span>
-                <span className="w-[30px] h-[2px] my-2 block bg-dark transition duration-300 ease-in-out"></span>
-                <span className="w-[30px] h-[2px] my-2 block bg-dark transition duration-300 ease-in-out origin-bottom-left "></span>
+                <span className="w-[30px] h-[2px] my-2 block bg-primary transition duration-300 ease-in-out origin-top-left "></span>
+                <span className="w-[30px] h-[2px] my-2 block bg-primary transition duration-300 ease-in-out"></span>
+                <span className="w-[30px] h-[2px] my-2 block bg-primary transition duration-300 ease-in-out origin-bottom-left "></span>
               </button>
 
-              <nav id="nav-menu" className="hidden lg:block absolute lg:static bg-white lg:bg-transparent lg:max-w-full shadow-lg lg:shadow-none rounded-lg rounded-none max-w-[250px] w-full right-6 top-full">
+              <nav id="nav-menu" className="hidden z-[9999] lg:block absolute lg:static bg-white lg:bg-transparent lg:max-w-full shadow-lg lg:shadow-none rounded-lg rounded-none max-w-[250px] w-full right-6 top-full">
                 <ul className="block lg:flex">
                   <li className="group"><a href="#home" className="text-base text-dark py-3 mx-6 group-hover:text-primary flex">Beranda</a></li>
                   <li className="group"><a href="#about" className="text-base text-dark py-3 mx-6 group-hover:text-primary flex">About</a></li>
@@ -62,22 +62,16 @@ export default function Home() {
         </div>
       </header>
 
-      <section id="home" className="mx-auto">
-        <div className="container">
+      <section id="home">
+        <div className="container pb-28 md:pb-44 md:px-24">
           <div className="flex flex-wrap">
             <div className="w-full self-center px-4 lg:w-1/2" data-aos="zoom-in">
-              <h1 className="text-base font-semibold text-primary md:text-xl lg:text-3xl">Hallo People👋, i'm <span className="block  font-bold text-4xl md:text-5xl text-dark">Rizki Tirta</span></h1>
-              <h2 className="font-medium text-slate-700 mb-5 md:text-xl">I'm a Backend Developer</h2>
-              <p className="font-medium text-dark-light mb-10 leading-related">Saya Adalah Seorang Fullstack
-                Web Developer Yang Berpengalaman
-                Lebih Dari 1 tahun Dan Saya Akan Selalu
-                Memberikan Upaya Terbaik Dalam
-                Setiap Proyek Yang Saya
-                Lakukan,Dan MemberiKan Solusi Terbaik
-                Terhadap Aplikasi Kreatif Yang
-                Akan Saya Buat</p>
+              <h1 className="text-base font-semibold text-primary md:text-xl lg:text-3xl">Hallo Semua👋 <span className="block  font-bold text-4xl md:text-5xl text-dark">Saya Rizki Tirta</span></h1>
+              <h2 className="font-medium text-slate-700 mb-5 md:text-xl mt-3">Saya Adalah Seorang Backend Developer</h2>
+              <div className="container mt-10">
               <a target="_blank" href="https://wa.me/6285273541416" className="text-base font-semibold text-white bg-primary p-3 rounded-full hover:bg-info transition-all duration-300 mx-2">Contact Me</a>
               <a target="_blank" href="https://drive.google.com/file/d/1eYceM9T9ddEFukJrvVPs8beQ-5Rc8oqr/view?usp=sharing" className="text-base font-semibold text-white bg-success p-3 rounded-full hover:bg-info transition-all duration-300">Download CV</a>
+              </div>
             </div>
             <div className="w-full self-end px-4 lg:w-1/2" data-aos="zoom-in">
               <div className="relative mt-10 lg:mt-0 lg:right-0">
@@ -93,22 +87,28 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="about" className="pt-60 pb-32">
-        <div className="container">
+      <section id="about">
+        <div className="container md:px-24">
           <div className="flex flex-wrap">
             <div className="w-full px-4 mb-10 lg:w-1/2 xl:w-1/2" data-aos="zoom-in">
-              <h4 className="font-bold uppercase text-primary text-lg mb-2 lg:text-2xl">About Me</h4>
-              <div className="w-[150px] h-1 bg-dark-light mb-10"></div>
-              <h2 className="font-bold text-dark text-2xl max-w-md mb-3 lg:text-3xl">Suka Belajar Hal Baru Dan Menyukai Tantangan</h2>
-
+              <h4 className="font-bold uppercase text-primary text-lg mb-2 lg:text-2xl">Tentang Saya</h4>
+              {/* <h2 className="font-bold text-dark text-2xl max-w-md mb-3 lg:text-3xl">Suka Belajar Hal Baru Terutama Di Bidang Tekhnologi Web</h2> */}
+              <p className="font-medium text-dark-light mb-10 leading-related">Saya Adalah Seorang Fullstack
+                Web Developer Yang Berpengalaman
+                Lebih Dari 1 tahun Dan Saya Akan Selalu
+                Memberikan Upaya Terbaik Dalam
+                Setiap Proyek Yang Saya
+                Lakukan,Dan MemberiKan Solusi Terbaik
+                Terhadap Aplikasi Kreatif Yang
+                Akan Saya Buat</p>
               <h3 className="font-bold text-dark text-xl mb-2 lg:text-3xl lg:pt-20">Skill Saya</h3>
               <p className="font-medium text-base text-dark-light mb-5 capitalize">Ini Adalah Tekhnologi Web Yang saya gunakan saat ini</p>
               <div className="flex item-center">
                 <figure><img className="" width="80%" src="/images/portofolio/skill.jpg" alt="Shoes" /></figure>
               </div>
             </div>
-            <div className="w-full px-4 mb-10 lg:w-1/2 xl:w-1/2" data-aos="zoom-in">
-              <h3 className="font-bold text-dark text-xl mb-2 lg:text-3xl lg:pt-20">Mari Berteman</h3>
+            <div className="w-full px-4 mb-10 lg:w-1/2 xl:w-1/2 translate-3" data-aos="zoom-in">
+              <h3 className="font-bold text-dark text-xl mb-2 lg:text-3xl">Mari Berteman</h3>
               <p className="font-medium text-base text-dark-light mb-5">Ikuti Sosial Media Saya Dibawah ini</p>
               <div className="flex item-center">
                 {/* SOSMED */}
@@ -160,11 +160,11 @@ export default function Home() {
                 </div>
               </div>
               <div className="w-full px-4 mb-6">
-                <label className="text-base text-primary font-bold ml-2" htmlFor="pesan">Message*</label>
+                <label className="text-base text-primary font-bold ml-2" htmlFor="pesan">Pesan*</label>
                 <textarea id="pesan" className="w-full p-3 mt-2 bg-slate-100 text-dark rounded-full focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"></textarea>
               </div>
               <div className="w-full px-4">
-                <button className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full float-right hover:opacity-80 hover:shadow-lg transition duration-300">Send</button>
+                <button className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full float-right hover:opacity-80 hover:shadow-lg transition duration-300">Kirim</button>
               </div>
             </div>
           </form>
