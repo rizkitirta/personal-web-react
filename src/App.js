@@ -63,7 +63,7 @@ export default function Home() {
       </header>
 
       <section id="home">
-        <div className="container pb-28 md:pb-44 md:px-24">
+        <div className="container pb-28 md:pb-44 md:px-24 md:mt-24">
           <div className="flex flex-wrap">
             <div className="w-full self-center px-4 lg:w-1/2" data-aos="zoom-in">
               <h1 className="text-base font-semibold text-primary md:text-xl lg:text-3xl">Hallo Semua👋 <span className="block  font-bold text-4xl md:text-5xl text-dark">Saya Rizki Tirta</span></h1>
@@ -95,7 +95,7 @@ export default function Home() {
       </section>
 
       <section id="about">
-        <div className="container md:px-24 mt-32">
+        <div className="container md:px-24 mt-24">
           <div className="flex flex-wrap">
             <div className="w-full px-4 mb-10 lg:w-1/2 xl:w-1/2" data-aos="zoom-in">
               <h4 className="font-bold uppercase text-primary text-lg mb-2 lg:text-2xl">Tentang Saya</h4>
