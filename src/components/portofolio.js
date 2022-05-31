@@ -63,7 +63,7 @@ function Portofolio() {
                         <div className="card-body">
                             <h2 className="card-title font-bold">
                                 PPDB Dinas
-                                <div className="badge badge-primary">Perusahaan / Project Internal</div>
+                                <div className="badge badge-primary">Perusahaan / Internal</div>
                             </h2>
                             <p>Layanan PPDB Online adalah sebuah sistem layanan yang dirancang untuk melakukan
                                 otomasi seleksi Pendaftaran Peserta Didik Baru (PPDB), mulai dari proses pendaftaran, proses seleksi hingga
@@ -83,7 +83,7 @@ function Portofolio() {
                         <figure><img className="hover:scale-125 duration-300 w-100" src="/images/portofolio/restapi2.png" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title font-bold">
-                                Rest Api Perikanan Kepulauan Riau
+                                Rest Api Perikanan Kepri
                                 <div className="badge badge-primary">Project Freelance</div>
                             </h2>
                             <p>Sebuah Restful Api Untuk Aplikasi Mobile Yang Ditujukan Untuk Jual Beli Ikan Di Kepulauan Riau </p>
@@ -101,7 +101,7 @@ function Portofolio() {
                         <div className="card-body">
                             <h2 className="card-title font-bold">
                                 Scoin
-                                <div className="badge badge-primary">Perusahaan / Project Internal</div>
+                                <div className="badge badge-primary">Perusahaan / Internal</div>
                             </h2>
                             <p>Scoin adalah satuan digital yang bernilai ekonomi yang digunakan untuk transaksi akses aplikasi turunan schoolmedia maupun aplikasi lain yang berkerjasama dengan schoolmedia, serta untuk pembayaran royalti terhadap pemilik konten - konten user schoolmedia maupun konten dari user dari platform lain yang bekerja sama dengan schoolmedia</p>
                             <div className="card-actions justify-end">
@@ -128,6 +128,7 @@ function Portofolio() {
                             <div className="card-actions justify-end">
                                 <div className="badge badge-outline">Nodejs</div>
                                 <div className="badge badge-outline">Express js</div>
+                                <div className="badge badge-outline">React js</div>
                                 <div className="badge badge-outline">Mongoose</div>
                                 <div className="badge badge-outline">MongoDb</div>
                             </div>
@@ -141,7 +142,7 @@ function Portofolio() {
                         <div className="card-body">
                             <h2 className="card-title font-bold">
                                 Tryout
-                                <div className="badge badge-primary">Perusahaan / Project Internal</div>
+                                <div className="badge badge-primary">Perusahaan / Internal</div>
                             </h2>
                             <p>Sebuah Web Aplikasi Untuk Melakukan Ujian Secara online Yang Terintegrasi Dengan Web Aplikasi Materi Ajar Dan Ujian (Tempat Untuk Membuat Soal & Materi)</p>
                             <div className="card-actions justify-end">
@@ -160,7 +161,7 @@ function Portofolio() {
                         <div className="card-body">
                             <h2 className="card-title font-bold">
                                 CMS MKKS
-                                <div className="badge badge-primary">Perusahaan / Project Internal</div>
+                                <div className="badge badge-primary">Perusahaan / Internal</div>
                             </h2>
                             <p>Sebuah Web Aplikasi Musyawarah Kerja Kepala Sekolah disingkat MKKS merupakan forum perkumpulan kepala sekolah dalam satu gugus wilayah atau kecamatan. Anggotanya terdiri dari kepala-kepala sekolah negeri dan swasta dalam satu kecamatan terkait. </p>
                             <div className="card-actions justify-end">
@@ -178,7 +179,7 @@ function Portofolio() {
                         <figure><img className="hover:scale-125 duration-300" src="/images/portofolio/si_perpus.jpg" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title font-bold">
-                                SI Perpustakaan
+                                SIPERPUS
                                 <div className="badge badge-primary">Personal / Latihan</div>
                             </h2>
                             <p>Sebuah Web Aplikasi Sederhana Untuk Memanajement Peminjaman Buku Serta Memantau Data Buku-buku Yang Ada Diperpustakaan</p>
@@ -216,7 +217,7 @@ function Portofolio() {
                         <figure><img className="hover:scale-125 duration-300" src="/images/portofolio/si_keuangan.jpg" alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title font-bold">
-                                Sistem Keuangan
+                                SI Keuangan
                                 <div className="badge badge-primary">Personal / Latihan</div>
                             </h2>
                             <p>Sebuah Web Aplikasi Sederhana Untuk Mencatat keluar Masuknya Keuangan Serta Melihat Laporan Berdasarkan Range Waktu</p>
