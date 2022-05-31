@@ -1,8 +1,8 @@
 ## Web Portofolio Statis
 
 ## Tekhnologi Web Yang Digunakan
--React
--Tailwind
+`-React`
+`-Tailwind`
 
 ## Live Preview
 ```sh
