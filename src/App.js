@@ -70,21 +70,26 @@ export default function Home() {
               <h2 className="font-medium text-slate-700 mb-5 md:text-xl mt-3">Saya Adalah Seorang Backend Developer</h2>
               <div className="container mt-10">
               <a target="_blank" href="https://wa.me/6285273541416" className="text-base font-semibold text-white bg-primary p-3 rounded-full hover:bg-info transition-all duration-300 mx-2">Contact Me</a>
-              <a target="_blank" href="https://drive.google.com/file/d/1eYceM9T9ddEFukJrvVPs8beQ-5Rc8oqr/view?usp=sharing" className="text-base font-semibold text-white bg-success p-3 rounded-full hover:bg-info transition-all duration-300">Download CV</a>
+              <a target="_blank" href="https://drive.google.com/file/d/1cvY5YiKMQ8Iwch-94HMMSgJIMp2Bp-2Q/view?usp=sharing" className="text-base font-semibold text-white bg-success p-3 rounded-full hover:bg-info transition-all duration-300">Download CV</a>
               </div>
             </div>
             <div className="w-full self-end px-4 lg:w-1/2" data-aos="zoom-in">
               <div className="relative mt-10 lg:mt-0 lg:right-0">
-                <img className="max-w-full mx-auto brightness-[1.3] drop-shadow-2xl " src="images/profile_2.png" />
+                <img className="max-w-full mx-auto brightness-150 md:w-1/2 drop-shadow-2xl " src="images/myprofile.png" />
                 <span className="absolute bottom-32 -z-[2] left-1/2 -translate-x-52">
                   <svg width={300} height={300} viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                     <path fill="#f59e0b" d="M70.2,-32.8C82.6,-18.9,78.6,12.1,64.2,32C49.8,52,24.9,60.9,6.2,57.3C-12.4,53.7,-24.8,37.6,-36.6,19.1C-48.3,0.7,-59.5,-20.1,-53.3,-30.3C-47.1,-40.5,-23.6,-40.2,2.6,-41.7C28.9,-43.2,57.7,-46.6,70.2,-32.8Z" transform="translate(100 100) scale(1.2)" />
                   </svg>
                 </span>
               </div>
+              
               <div className="relative mt-10 lg:mt-0 lg:right-0">
-                <span className="absolute -top-64 z-[2] left-1/2 -translate-x-48">
-                  <svg width={450} height={450} viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <div className="font-bold absolute md:right-60 right-36 text-white text-2xl z-[3] md:mt-6">
+                <div className="text-white text-2xl font-bold">Rizki Tirta B</div>
+                <div className="text-white text-sm font-bold">Backend Developer</div>
+              </div>
+                <span className="absolute -top-80 md:-top-72 z-[2] left-1/2 md:-translate-x-80 -translate-x-72 md:-ml-1 -ml-12">
+                  <svg width={700} height={700} viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                     <path fill="#F59E0B" d="M31.3,-30.8C35.4,-27.2,29.9,-13.6,33.7,3.8C37.4,21.1,50.4,42.2,46.3,43.4C42.2,44.7,21.1,26,3.5,22.6C-14.2,19.1,-28.4,30.9,-38,29.6C-47.5,28.4,-52.5,14.2,-50.9,1.5C-49.4,-11.1,-41.4,-22.3,-31.9,-25.9C-22.3,-29.6,-11.1,-25.7,1.2,-26.9C13.6,-28.1,27.2,-34.5,31.3,-30.8Z" transform="translate(100 100)" />
                   </svg>
                 </span>
@@ -95,7 +100,7 @@ export default function Home() {
       </section>
 
       <section id="about">
-        <div className="container md:px-24 mt-24">
+        <div className="container md:px-24 mt-60 mb-20">
           <div className="flex flex-wrap">
             <div className="w-full px-4 mb-10 lg:w-1/2 xl:w-1/2" data-aos="zoom-in">
               <h4 className="font-bold uppercase text-primary text-lg mb-2 lg:text-2xl">Tentang Saya</h4>
@@ -111,7 +116,7 @@ export default function Home() {
               <h3 className="font-bold text-dark text-xl mb-2 lg:text-3xl lg:pt-20">Skill Saya</h3>
               <p className="font-medium text-base text-dark-light mb-5 capitalize">Ini Adalah Tekhnologi Web Yang saya gunakan saat ini</p>
               <div className="flex item-center">
-                <figure><img className="" width="80%" src="/images/portofolio/skill.jpg" alt="Shoes" /></figure>
+                <figure><img className="" width="100%" src="/images/skill.png" alt="Shoes" /></figure>
               </div>
             </div>
             <div className="w-full px-4 mb-10 lg:w-1/2 xl:w-1/2 translate-3" data-aos="zoom-in">
