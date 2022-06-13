@@ -76,7 +76,7 @@ export default function Home() {
             <div className="w-full self-end px-4 lg:w-1/2" data-aos="zoom-in">
               <div className="relative mt-10 lg:mt-0 lg:right-0">
                 <img className="max-w-full mx-auto brightness-150 md:w-1/2 drop-shadow-2xl " src="images/myprofile.png" />
-                <span className="absolute bottom-32 -z-[2] left-1/2 -translate-x-52">
+                <span className="absolute bottom-20 -z-[2] left-1/2 -translate-x-52">
                   <svg width={300} height={300} viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                     <path fill="#f59e0b" d="M70.2,-32.8C82.6,-18.9,78.6,12.1,64.2,32C49.8,52,24.9,60.9,6.2,57.3C-12.4,53.7,-24.8,37.6,-36.6,19.1C-48.3,0.7,-59.5,-20.1,-53.3,-30.3C-47.1,-40.5,-23.6,-40.2,2.6,-41.7C28.9,-43.2,57.7,-46.6,70.2,-32.8Z" transform="translate(100 100) scale(1.2)" />
                   </svg>
@@ -84,12 +84,12 @@ export default function Home() {
               </div>
               
               <div className="relative mt-10 lg:mt-0 lg:right-0">
-              <div className="font-bold absolute md:right-60 right-36 text-white text-2xl z-[3] md:mt-6">
+              <div className="font-bold absolute right-36 text-white text-2xl z-[3] md:mt-6 md:-translate-x-16 2xl:-translate-x-32">
                 <div className="text-white text-2xl font-bold">Rizki Tirta B</div>
                 <div className="text-white text-sm font-bold">Backend Developer</div>
               </div>
-                <span className="absolute -top-80 md:-top-72 z-[2] left-1/2 md:-translate-x-80 -translate-x-72 md:-ml-1 -ml-12">
-                  <svg width={700} height={700} viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <span className="absolute -top-80  md:-top-72 z-[2] left-1/2  -translate-x-80 md:-ml-21 -ml-10">
+                  <svg width={750} height={700} viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                     <path fill="#F59E0B" d="M31.3,-30.8C35.4,-27.2,29.9,-13.6,33.7,3.8C37.4,21.1,50.4,42.2,46.3,43.4C42.2,44.7,21.1,26,3.5,22.6C-14.2,19.1,-28.4,30.9,-38,29.6C-47.5,28.4,-52.5,14.2,-50.9,1.5C-49.4,-11.1,-41.4,-22.3,-31.9,-25.9C-22.3,-29.6,-11.1,-25.7,1.2,-26.9C13.6,-28.1,27.2,-34.5,31.3,-30.8Z" transform="translate(100 100)" />
                   </svg>
                 </span>
