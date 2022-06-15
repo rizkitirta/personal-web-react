@@ -116,7 +116,7 @@ export default function Home() {
               <h3 className="font-bold text-dark text-xl mb-2 lg:text-3xl lg:pt-20">Skill Saya</h3>
               <p className="font-medium text-base text-dark-light mb-5 capitalize">Ini Adalah Tekhnologi Web Yang saya gunakan saat ini</p>
               <div className="flex item-center">
-                <figure><img className="" width="100%" src="/images/skill.png" alt="Shoes" /></figure>
+                <figure><img className="" width="100%" src="/images/skills.png" alt="Shoes" /></figure>
               </div>
             </div>
             <div className="w-full px-4 mb-10 lg:w-1/2 xl:w-1/2 translate-3" data-aos="zoom-in">
